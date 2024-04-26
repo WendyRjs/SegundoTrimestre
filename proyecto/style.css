@@ -1,0 +1,68 @@
+body{
+    background: linear-gradient(
+        #f1effdb3,
+          #b3a2ffb3
+      )
+      
+  }
+
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    margin: 55px;
+}
+
+p {
+    margin: 55px;
+}
+
+img {
+    width: 300px;
+    border-radius: 10px;
+    float: right;
+    justify-content: center;
+    background-color: rgb(216, 179, 231);
+    margin: 55px;
+}
+
+
+h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 45px;
+}
+
+h3 {
+    margin: 65px;
+}
+
+
+.container-blogs {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 3rem;
+}
+
+.content-blog p {
+	margin-top: 1rem;
+	font-size: 22px;
+	color: #777;
+}
+
+table {
+    margin: 25px;
+}
+
+footer{
+    background-color: #f3e8ff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+footer p, svg, strong{
+    background-color: #f3e8ff;
+    border-radius: 5px;
+    height: 75px;
+}
+
